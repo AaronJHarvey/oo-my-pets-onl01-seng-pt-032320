@@ -41,7 +41,7 @@ def buy_dog(name)
 end
 
 def walk_dogs
-dog.owner == self 
+self.dogs.each{|mood| dog.n
 end
 
 end
