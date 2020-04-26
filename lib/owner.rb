@@ -50,7 +50,8 @@ end
 
 def sell_pets
   pets = self.dogs + self.cats 
-  pets.each{|pet| pet.mood = "nervous"}
-  pets.owner = " "
+
+pets.each do 
+  
 end
 end
