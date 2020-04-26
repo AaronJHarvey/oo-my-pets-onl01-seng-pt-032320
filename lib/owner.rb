@@ -40,6 +40,8 @@ def buy_dog(name)
   Dog.new(name, self)
 end
 
-def
+def walk_dogs
+dog.owner == self 
+end
 
 end
