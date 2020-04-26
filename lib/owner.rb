@@ -25,6 +25,6 @@ def self.reset_all
 end
 
 def self.cats
-  cats.each do {|cat| cat.owner = self}
+  cats.each {|cat| cat.owner = self}
 end
 end
